@@ -1,0 +1,252 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  background-color: rgb(50, 50, 50);
+  opacity: 0.9;
+  height: 50px;
+  width: 100%;
+  position: fixed;
+  z-index: 10;
+}
+
+.list {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+
+.list1, .list2, .list3, .list4 {
+  padding: 15px 20px;
+  line-height: 50px;
+  margin: 0 30px;
+  color: white;
+}
+
+.fab, .fas, .far {
+  margin-right: 10px;
+}
+
+.top {
+  position: relative;
+}
+
+.pic {
+  width: 100%;
+  opacity: 0.7;
+  padding-top: 50px;
+  vertical-align: top;
+}
+
+.tex {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%,-50%);
+  -webkit-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+  font-size: 40px;
+  font-family: "arial black";
+}
+
+.tex2 {
+  position: absolute;
+  top: 65%;
+  left: 50%;
+  -ms-transform: translate(-50%,-50%);
+  -webkit-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+  font-size: 25px;
+  font-family: "arial black";
+}
+
+.main {
+  /* height: 1000px; */
+  background-image: url(../main.jpg);
+  background-size: cover;
+  background-color: rgb(255, 255, 255, 0.5);
+  background-blend-mode: lighten;
+}
+
+.profile2 {
+  text-align: center;
+  padding-top: 100px;
+}
+
+.profile3 {
+  display: flex;
+  width: 1000px;
+  margin: 20px auto;
+}
+
+.profile4 {
+  display: block;
+  margin-right: 20px;
+}
+
+.profile5 {
+  width: 600px;
+  margin-top: 65px;
+  margin-left: 20px;
+}
+
+.skill2 {
+  text-align: center;
+  padding-top: 100px;
+  padding-bottom: 80px;
+}
+
+.skill3 {
+  background-color: rgb(255, 255, 255, 0.8);
+  width: 600px;
+  margin: 0 auto;
+  padding: 20px 100px;
+}
+
+.skill4, .skill9 {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.skill5 {
+  display: flex;
+}
+
+.skill4, .skill9 {
+  font-size: 30px;
+  font-weight: normal;
+}
+
+.skill5, .skill10 {
+  justify-content: center;
+  font-weight: lighter;
+  font-size: 15px;
+}
+
+.skill7, .skill8, .skill12, .skill13 {
+  margin-left: 50px;
+}
+
+.fa-star, .fa-star-half {
+  margin-bottom: 20px;
+}
+
+.skill10 {
+  display: flex;
+}
+
+.skill7, .skill12 {
+  font-weight: lighter;
+}
+
+.works2 {
+  text-align: center;
+  padding-top: 100px;
+  padding-bottom: 80px;
+}
+
+.workspf2, .worksab2, .worksd2 {
+  width: 300px;
+}
+
+/* .works3 {
+  display: flex;
+  justify-content: space-around;
+} */
+
+.works3 {
+  width: 600px;
+  background-color: rgb(255, 255, 255, 0.8);
+  margin: 0 auto;
+  padding: 60px 100px 30px 100px;
+}
+
+.worksl2 {
+  width: 300px;
+  height: 60px;
+}
+
+.works4, .works5 {
+  display: flex;
+  width: 640px;
+  margin: 0 auto;
+}
+
+.workspf, .worksab {
+  margin-right: 20px;
+}
+
+.worksl, .worksd {
+  margin-left: 20px;
+}
+
+.worksl > h2 {
+  font-weight: lighter;
+  font-size: 10px;
+  text-align: center;
+  line-height: 20px;
+}
+
+.worksl3 {
+  /* margin-top: 45px; */
+}
+
+.workspf3, .worksl3, .worksab3, .worksd3 {
+  font-weight: lighter;
+  font-size: 20px;
+  text-align: center;
+}
+
+.workspf2, .worksab2, .worksd2 {
+  opacity: 0.4;
+}
+
+.workspf2:hover, .worksab2:hover, .worksd2:hover {
+  opacity: 1;
+  transition: all 0.5s;
+}
+
+.workspf4, .worksab4, .worksd4 {
+  text-align: center;
+  font-weight: normal;
+  font-size: 15px;
+}
+
+.contact2 {
+  text-align: center;
+  padding-top: 100px;
+  padding-bottom: 80px;
+}
+
+.contact3 {
+  width: 600px;
+  background-color: rgb(255, 255, 255, 0.8);
+  margin: 0 auto;
+  padding: 60px 100px 60px 100px;
+  font-weight: lighter;
+  font-size: 12px;
+}
+
+.contact4, .contact5 {
+  text-align: center;
+}
+
+.content6 {
+  height: 100px;
+}
+
+.footer {
+  height: 100px;
+  background-color: rgba(50, 50, 50, 0.8);
+}
+
+.footer2 {
+  text-align: center;
+  line-height: 100px;
+  color: white;
+  font-weight: lighter;
+  font-size: 15px;
+  letter-spacing: 2px;
+}
